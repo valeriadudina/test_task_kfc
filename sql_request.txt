@@ -1,0 +1,2 @@
+SELECT * FROM kfc_restaurants_2 where city like '%Новосибирск%' and is_breakfast=1
+and  strftime('%H:%M', breakfast_start_time) < '08:45'and strftime('%H:%M', breakfast_end_time) > '08:45';
